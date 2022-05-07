@@ -73,8 +73,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/msandova/citations/uploads/d07a81a46ed4e2db86c50697cec47bfb/citations-0.1.0.tar.xz",
-                    "sha256": "10c8f2a3fe43365c5bbbb0ad0f52e4f067c5cfb09954c5f4ddf473854b458dc2"
+                    "url": "https://gitlab.gnome.org/World/citations/uploads/eec08884cc6d867ef741d5d67a3ed80d/citations-0.2.0.tar.xz",
+                    "sha256": "eb17da823bfb7ebe9cac2a34d96f3be25ab108aebc10d212a0dab46c6cf5913e"
                 }
             ]
         }
