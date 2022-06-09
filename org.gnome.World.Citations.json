@@ -9,6 +9,7 @@
         "--device=dri",
         "--filesystem=xdg-documents/Bibliography",
         "--share=ipc",
+        "--share=network",
         "--socket=fallback-x11",
         "--socket=wayland"
     ],
@@ -27,6 +28,32 @@
         "*.a"
     ],
     "modules": [
+        {
+            "name": "poppler",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_INSTALL_LIBDIR=/app/lib",
+                "-DCMAKE_INSTALL_INCLUDEDIR=/app/include",
+                "-DBUILD_GTK_TESTS=OFF",
+                "-DBUILD_CPP_TESTS=OFF",
+                "-DENABLE_SPLASH=OFF",
+                "-DENABLE_UTILS=OFF",
+                "-DENABLE_CPP=OFF",
+                "-DENABLE_BOOST=OFF",
+                "-DENABLE_GOBJECT_INTROSPECTION=OFF",
+                "-DENABLE_LIBOPENJPEG=openjpeg2"
+            ],
+            "cleanup": [
+                "/bin"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://gitlab.freedesktop.org/poppler/poppler/-/archive/poppler-22.06.0/poppler-poppler-22.06.0.tar.gz",
+                    "sha256": "346c5c6a92b25030d646aea5eea3bf62e4310aa93bdeb9b2922f7989b6573ca7"
+                }
+            ]
+        },
         {
             "name" : "libsass",
             "buildsystem" : "meson",
@@ -64,7 +91,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/libadwaita",
-                    "commit": "50db2aa22d3dfc1afc2b3f6e90758305865c8b20"
+                    "commit": "7a070faf7b1548cefcb034766cbfb337fce32a6d"
                 }
             ]
         },
@@ -74,8 +101,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/World/citations/uploads/27efdcec6160e615c8aab43c5351791e/citations-0.3.0.tar.xz",
-                    "sha256": "00d0156449030aa7b90dac89f018e2af77e76b5c3c0b873c99d729e5bab81204"
+                    "url": "https://gitlab.gnome.org/World/citations/uploads/f79c5e0b5c621319919991eea22a7880/citations-0.4.0.tar.xz",
+                    "sha256": "d97277ef7145fd0000490f046694a897ebb1959793ffba453e7c6f4912f87d4c"
                 }
             ]
         }
