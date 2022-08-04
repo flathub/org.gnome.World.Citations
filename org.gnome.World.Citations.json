@@ -91,7 +91,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/libadwaita",
-                    "commit": "7a070faf7b1548cefcb034766cbfb337fce32a6d"
+                    "commit": "5263b5453edeef2cee495880dea054ea2386b86e"
                 }
             ]
         },
@@ -101,8 +101,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/World/citations/uploads/f79c5e0b5c621319919991eea22a7880/citations-0.4.0.tar.xz",
-                    "sha256": "d97277ef7145fd0000490f046694a897ebb1959793ffba453e7c6f4912f87d4c"
+                    "url": "https://gitlab.gnome.org/World/citations/uploads/3d797bd0e678708f9a7c7ef26b0d9cc1/citations-0.5.0.tar.xz",
+                    "sha256": "97529518bd42b58f1981fff399162442be489d148c6846d1bf72361e92218833"
                 }
             ]
         }
