@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.World.Citations",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
     "command": "citations",
@@ -51,47 +51,6 @@
                     "type": "archive",
                     "url": "https://gitlab.freedesktop.org/poppler/poppler/-/archive/poppler-22.06.0/poppler-poppler-22.06.0.tar.gz",
                     "sha256": "346c5c6a92b25030d646aea5eea3bf62e4310aa93bdeb9b2922f7989b6573ca7"
-                }
-            ]
-        },
-        {
-            "name" : "libsass",
-            "buildsystem" : "meson",
-            "cleanup": ["*"],
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://github.com/lazka/libsass.git",
-                    "commit": "302397c0c8ae2d7ab02f45ea461c2c3d768f248e"
-                }
-            ]
-        },
-        {
-            "name" : "sassc",
-            "buildsystem" : "meson",
-            "cleanup": ["*"],
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://github.com/lazka/sassc.git",
-                    "commit": "82803377c33247265d779af034eceb5949e78354"
-                }
-            ]
-        },
-        {
-            "name": "libadwaita",
-            "buildsystem": "meson",
-            "config-opts" : [
-                "-Dtests=false",
-                "-Dexamples=false",
-                "-Dintrospection=disabled",
-                "-Dvapi=false"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/libadwaita",
-                    "commit": "5263b5453edeef2cee495880dea054ea2386b86e"
                 }
             ]
         },
