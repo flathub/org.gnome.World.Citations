@@ -7,7 +7,7 @@
     "command": "citations",
     "finish-args" : [
         "--device=dri",
-        "--filesystem=xdg-documents/Bibliography",
+        "--filesystem=xdg-documents/Bibliography:create",
         "--share=ipc",
         "--share=network",
         "--socket=fallback-x11",
