@@ -1,7 +1,7 @@
 {
     "id": "org.gnome.World.Citations",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "45",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
     "command": "citations",
@@ -49,8 +49,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.freedesktop.org/poppler/poppler/-/archive/poppler-23.04.0/poppler-poppler-23.04.0.tar.gz",
-                    "sha256": "61ab8a8da0ae2bd6f8e7e6f60d5970f7f87cd790c1620f0fe6fbcbdc095c7571"
+                    "url": "https://gitlab.freedesktop.org/poppler/poppler/-/archive/poppler-23.09.0/poppler-poppler-23.09.0.tar.gz",
+                    "sha256": "21595c3e13b813e4fa9eb518159d2f0049fcdbcd5e0f49535159935f6f7b2970"
                 }
             ]
         },
@@ -60,8 +60,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/World/citations/uploads/9f494dc72b23ab1b465cab4c4fa76d7a/citations-0.5.2.tar.xz",
-                    "sha256": "fc3e5b63c8bbe2e361d5dcc6e5a27c6f1f888e497e1565910d3776f85e82877c"
+                    "url": "https://gitlab.gnome.org/World/citations/uploads/f18587f9728e81929f7ceb7401e204d1/citations-0.6.0.tar.xz",
+                    "sha256": "dc7c3b828576f50a4d50a6446927911575095dc2d7b674e1e8361124ed81d184"
                 }
             ]
         }
