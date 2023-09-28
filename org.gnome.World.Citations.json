@@ -41,6 +41,8 @@
                 "-DENABLE_CPP=OFF",
                 "-DENABLE_BOOST=OFF",
                 "-DENABLE_GOBJECT_INTROSPECTION=OFF",
+                "-DENABLE_QT5=OFF",
+                "-DENABLE_QT6=OFF",
                 "-DENABLE_LIBOPENJPEG=openjpeg2"
             ],
             "cleanup": [
