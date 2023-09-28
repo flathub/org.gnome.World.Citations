@@ -41,6 +41,8 @@
                 "-DENABLE_CPP=OFF",
                 "-DENABLE_BOOST=OFF",
                 "-DENABLE_GOBJECT_INTROSPECTION=OFF",
+                "-DENABLE_QT5=OFF",
+                "-DENABLE_QT6=OFF",
                 "-DENABLE_LIBOPENJPEG=openjpeg2"
             ],
             "cleanup": [
@@ -60,8 +62,12 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/World/citations/uploads/f18587f9728e81929f7ceb7401e204d1/citations-0.6.0.tar.xz",
-                    "sha256": "dc7c3b828576f50a4d50a6446927911575095dc2d7b674e1e8361124ed81d184"
+                    "url": "https://gitlab.gnome.org/World/citations/uploads/40dcbc50896fe1ab9740e8e5714a4f59/citations-0.6.2.tar.xz",
+                    "sha256": "df195bdc6b9bf49625a8d25343c5fff769eebae5dfead0c49f8f684c97228d9e"
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/0001-app-Do-not-check-if-file-exists.patch"
                 }
             ]
         }
