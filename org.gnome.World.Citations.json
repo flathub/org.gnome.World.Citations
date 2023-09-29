@@ -68,6 +68,14 @@
                 {
                     "type": "patch",
                     "path": "patches/0001-app-Do-not-check-if-file-exists.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/0002-app-Loop-over-files.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "patches/0003-desktop-Allow-opening-files.patch"
                 }
             ]
         }
