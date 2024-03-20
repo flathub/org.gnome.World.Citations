@@ -1,7 +1,7 @@
 {
     "id": "org.gnome.World.Citations",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": ["org.freedesktop.Sdk.Extension.rust-stable"],
     "command": "citations",
@@ -51,8 +51,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.freedesktop.org/poppler/poppler/-/archive/poppler-23.09.0/poppler-poppler-23.09.0.tar.gz",
-                    "sha256": "21595c3e13b813e4fa9eb518159d2f0049fcdbcd5e0f49535159935f6f7b2970"
+                    "url": "https://poppler.freedesktop.org/poppler-24.03.0.tar.xz",
+                    "sha256": "bafbf0db5713dec25b5d16eb2cd87e4a62351cdc40f050c3937cd8dd6882d446",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 3686,
+                        "url-template": "https://poppler.freedesktop.org/poppler-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -62,20 +67,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/World/citations/uploads/40dcbc50896fe1ab9740e8e5714a4f59/citations-0.6.2.tar.xz",
-                    "sha256": "df195bdc6b9bf49625a8d25343c5fff769eebae5dfead0c49f8f684c97228d9e"
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/0001-app-Do-not-check-if-file-exists.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/0002-app-Loop-over-files.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/0003-desktop-Allow-opening-files.patch"
+                    "url": "https://gitlab.gnome.org/World/citations/uploads/116bfb4ed35039f8cbf5b1315c2f4a43/citations-0.6.3.tar.xz",
+                    "sha256": "280ab5fc836ff2c22158fa81dfeda1faa5dfd23c3a3315f4595863a392e9704b"
                 }
             ]
         }
