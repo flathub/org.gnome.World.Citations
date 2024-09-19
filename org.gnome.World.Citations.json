@@ -1,7 +1,7 @@
 {
     "id": "org.gnome.World.Citations",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -69,8 +69,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/World/citations/uploads/842bc53ab752e8a5a1d38b3c57d99818/citations-0.6.4.tar.xz",
-                    "sha256": "0f866d7d6e4a4ce4267d74f15f40f92094fe2e562f192ae408ba1e1a7983107e"
+                    "url": "https://gitlab.gnome.org/-/project/20669/uploads/535a5ae60ecddc289095c0011fc2c651/citations-0.7.0.tar.xz",
+                    "sha256": "83d04bb76ba2cff06344ac0c57811f38f90050e502e147e06ba5b96eeb8c16a3"
                 }
             ]
         }
