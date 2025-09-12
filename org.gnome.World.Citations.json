@@ -70,7 +70,13 @@
                 {
                     "type": "archive",
                     "url": "https://gitlab.gnome.org/-/project/20669/uploads/937a5f8cb83c61bdd43e76a0bd5ef44c/citations-0.8.0.tar.xz",
-                    "sha256": "d5764910c8dd0e464ad4631f505c0b9e97dda354169aea4957e2f84eb5522825"
+                    "sha256": "d5764910c8dd0e464ad4631f505c0b9e97dda354169aea4957e2f84eb5522825",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://gitlab.gnome.org/api/v4/projects/20669/releases/",
+                        "version-query": ".[0].tag_name",
+                        "url-query": ".[0].assets.links.[] | select(.name == \"citations-\" + $version + \".tar.xz\") | .direct_asset_url"
+                    }
                 }
             ]
         }
